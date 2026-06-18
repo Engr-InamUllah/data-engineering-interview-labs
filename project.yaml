@@ -1,0 +1,19 @@
+name: data-engineering-interview-labs
+owner: Engr-InamUllah
+status: scaffold
+stack: 'SQL, Python, PySpark, Docker'
+pipeline:
+  - sql
+  - python
+  - pyspark
+  - modeling
+  - system_design
+quality_gates:
+  - schema_validation
+  - null_thresholds
+  - duplicate_detection
+  - freshness_check
+  - automated_tests
+security:
+  secrets: environment_or_secret_store
+  least_privilege: true
